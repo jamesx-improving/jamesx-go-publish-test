@@ -5,6 +5,7 @@ package api
 // void print_hello();
 import "C"
 
+// This function prints hello world from rust
 func GoWithRustPrint() {
 	C.print_hello()
 }
