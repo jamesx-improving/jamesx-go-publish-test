@@ -1,7 +1,7 @@
 package api
 
 // #cgo LDFLAGS: -ljamesx_go_publish_test
-// #cgo LDFLAGS: -L../build
+// #cgo LDFLAGS: -L${SRCDIR}/../build
 // #include "../lib.h"
 import "C"
 
